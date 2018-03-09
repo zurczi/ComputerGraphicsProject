@@ -1,0 +1,5812 @@
+# depslib dependency file v1.0
+1456501319 source:c:\users\kasi\desktop\projekt_grafika\22_07_v2\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 c:\users\kasi\desktop\projekt_grafika\22_07_v2\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1500734445 source:c:\users\kasi\desktop\projekt_grafika\22_07_v2\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"allmodels.h"
+	"loader.h"
+
+1469357978 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487688962 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\_swizzle.hpp
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_vec2.inl
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_vec3.inl
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat2x3.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat2x4.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat3x2.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat3x4.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat4x2.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat4x3.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_vec1.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\type_half.inl
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_packing_simd.inl
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\simd\integer.h
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\22_07_v2\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1487675316 c:\users\kasi\desktop\projekt_grafika\22_07_v2\constants.h
+
+1500733522 c:\users\kasi\desktop\projekt_grafika\22_07_v2\allmodels.h
+	"statek.h"
+	"Tlo.h"
+
+1500729015 source:c:\users\kasi\desktop\projekt_grafika\22_07_v2\model.cpp
+	"model.h"
+
+1500731089 c:\users\kasi\desktop\projekt_grafika\22_07_v2\model.h
+	<vector>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"constants.h"
+
+1500730025 source:c:\users\kasi\desktop\projekt_grafika\22_07_v2\loader.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<limits>
+	<string>
+	"loader.h"
+
+1500730025 c:\users\kasi\desktop\projekt_grafika\22_07_v2\loader.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1500729015 c:\users\kasi\desktop\projekt_grafika\22_07_v2\statek.h
+	"model.h"
+
+1500731591 source:c:\users\kasi\desktop\projekt_grafika\22_07_v2\statek.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"statek.h"
+	"loader.h"
+
+1500733345 c:\users\kasi\desktop\projekt_grafika\22_07_v2\tlo.h
+	"model.h"
+
+1500733498 source:c:\users\kasi\desktop\projekt_grafika\22_07_v2\tlo.cpp
+	<stdio.h>
+	<cstdlib>
+	"tlo.h"
+	"loader.h"
+
+1500730025 source:c:\users\kasi\desktop\projekt_grafika\23_07_v1\loader.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<limits>
+	<string>
+	"loader.h"
+
+1469357978 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487688962 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\_swizzle.hpp
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\_swizzle_func.hpp
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_vec2.inl
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_vec3.inl
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_vec4_simd.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat2x3.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat2x4.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat3x2.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat3x4.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat4x2.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat4x3.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_mat4x4_simd.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_vec1.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_vector_relational_simd.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\simd\common.h
+	"platform.h"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\simd\geometric.h
+	"common.h"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_trigonometric_simd.inl
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\type_half.inl
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_packing_simd.inl
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483569764 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483569766 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\simd\integer.h
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\gtc\constants.inl
+	<limits>
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\gtc\quaternion_simd.inl
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485087148 c:\users\kasi\desktop\projekt_grafika\23_07_v1\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1500730025 c:\users\kasi\desktop\projekt_grafika\23_07_v1\loader.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1456501319 source:c:\users\kasi\desktop\projekt_grafika\23_07_v1\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456501324 c:\users\kasi\desktop\projekt_grafika\23_07_v1\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1500729015 source:c:\users\kasi\desktop\projekt_grafika\23_07_v1\model.cpp
+	"model.h"
+
+1500731089 c:\users\kasi\desktop\projekt_grafika\23_07_v1\model.h
+	<vector>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"constants.h"
+
+1487675316 c:\users\kasi\desktop\projekt_grafika\23_07_v1\constants.h
+
+1500731591 source:c:\users\kasi\desktop\projekt_grafika\23_07_v1\statek.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"statek.h"
+	"loader.h"
+
+1500729015 c:\users\kasi\desktop\projekt_grafika\23_07_v1\statek.h
+	"model.h"
+
+1500733498 source:c:\users\kasi\desktop\projekt_grafika\23_07_v1\tlo.cpp
+	<stdio.h>
+	<cstdlib>
+	"tlo.h"
+	"loader.h"
+
+1500733345 c:\users\kasi\desktop\projekt_grafika\23_07_v1\tlo.h
+	"model.h"
+
+1500803617 source:c:\users\kasi\desktop\projekt_grafika\23_07_v1\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"allmodels.h"
+	"loader.h"
+
+1500733522 c:\users\kasi\desktop\projekt_grafika\23_07_v1\allmodels.h
+	"statek.h"
+	"Tlo.h"
+
+1500730026 source:c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\loader.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<limits>
+	<string>
+	"loader.h"
+
+1469357978 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487692562 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483573366 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\_swizzle.hpp
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\_swizzle_func.hpp
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_vec2.inl
+
+1483573366 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_vec3.inl
+
+1483573366 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_vec4_simd.inl
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat2x3.inl
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat2x4.inl
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat3x2.inl
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat3x4.inl
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat4x2.inl
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat4x3.inl
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_mat4x4_simd.inl
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_vec1.inl
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_vector_relational_simd.inl
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483573366 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\simd\common.h
+	"platform.h"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483573366 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\simd\geometric.h
+	"common.h"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483573366 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_trigonometric_simd.inl
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\type_half.inl
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_packing_simd.inl
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483573366 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483573364 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483573366 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\simd\integer.h
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\gtc\constants.inl
+	<limits>
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\gtc\quaternion_simd.inl
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485090748 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1500730026 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\loader.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1456504920 source:c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456504924 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1501155429 source:c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"allmodels.h"
+	"loader.h"
+	<windows.h>
+	<time.h>
+
+1487678916 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\constants.h
+
+1500909113 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\allmodels.h
+	"statek.h"
+	"Tlo.h"
+	"woda.h"
+	"Zagiel.h"
+
+1500729016 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\statek.h
+	"model.h"
+
+1500731090 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\model.h
+	<vector>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"constants.h"
+
+1500733346 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\tlo.h
+	"model.h"
+
+1500729016 source:c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\model.cpp
+	"model.h"
+
+1501156106 source:c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\statek.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"statek.h"
+	"loader.h"
+
+1500899823 source:c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\tlo.cpp
+	<stdio.h>
+	<cstdlib>
+	"tlo.h"
+	"loader.h"
+
+1500900930 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\woda.h
+	"model.h"
+
+1501154905 source:c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\woda.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"woda.h"
+	"loader.h"
+
+1500910626 source:c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\zagiel.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"Zagiel.h"
+	"loader.h"
+
+1500909005 c:\users\anka\desktop\od kasi\23_07_v1\23_07_v1\zagiel.h
+	"model.h"
+
+1501169844 source:c:\users\anka\desktop\z wios³em\23_07_v1\loader.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<limits>
+	<string>
+	"loader.h"
+
+1469357978 c:\users\anka\desktop\z wios³em\23_07_v1\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487692562 c:\users\anka\desktop\z wios³em\23_07_v1\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483573366 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\_swizzle.hpp
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\_swizzle_func.hpp
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec2.inl
+
+1483573366 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec3.inl
+
+1483573366 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec4_simd.inl
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x3.inl
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x4.inl
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x2.inl
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x4.inl
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x2.inl
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x3.inl
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x4_simd.inl
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec1.inl
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_vector_relational_simd.inl
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483573366 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\simd\common.h
+	"platform.h"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483573366 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\simd\geometric.h
+	"common.h"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483573366 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_trigonometric_simd.inl
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\type_half.inl
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_packing_simd.inl
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483573366 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483573364 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483573366 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\simd\integer.h
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\gtc\constants.inl
+	<limits>
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\gtc\quaternion_simd.inl
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485090748 c:\users\anka\desktop\z wios³em\23_07_v1\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1500730026 c:\users\anka\desktop\z wios³em\23_07_v1\loader.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1456504920 source:c:\users\anka\desktop\z wios³em\23_07_v1\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456504924 c:\users\anka\desktop\z wios³em\23_07_v1\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1500729016 source:c:\users\anka\desktop\z wios³em\23_07_v1\model.cpp
+	"model.h"
+
+1500731090 c:\users\anka\desktop\z wios³em\23_07_v1\model.h
+	<vector>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"constants.h"
+
+1487678916 c:\users\anka\desktop\z wios³em\23_07_v1\constants.h
+
+1501161763 source:c:\users\anka\desktop\z wios³em\23_07_v1\statek.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"statek.h"
+	"loader.h"
+
+1500729016 c:\users\anka\desktop\z wios³em\23_07_v1\statek.h
+	"model.h"
+
+1501170565 source:c:\users\anka\desktop\z wios³em\23_07_v1\tlo.cpp
+	<stdio.h>
+	<cstdlib>
+	"tlo.h"
+	"loader.h"
+
+1500733346 c:\users\anka\desktop\z wios³em\23_07_v1\tlo.h
+	"model.h"
+
+1501154905 source:c:\users\anka\desktop\z wios³em\23_07_v1\woda.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"woda.h"
+	"loader.h"
+
+1500900930 c:\users\anka\desktop\z wios³em\23_07_v1\woda.h
+	"model.h"
+
+1500910626 source:c:\users\anka\desktop\z wios³em\23_07_v1\zagiel.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"Zagiel.h"
+	"loader.h"
+
+1500909005 c:\users\anka\desktop\z wios³em\23_07_v1\zagiel.h
+	"model.h"
+
+1501167355 source:c:\users\anka\desktop\z wios³em\23_07_v1\wioslo.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo.h"
+	"loader.h"
+
+1501157140 c:\users\anka\desktop\z wios³em\23_07_v1\wioslo.h
+	"model.h"
+
+1501170426 source:c:\users\anka\desktop\z wios³em\23_07_v1\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"allmodels.h"
+	"loader.h"
+	<windows.h>
+	<time.h>
+
+1501165087 c:\users\anka\desktop\z wios³em\23_07_v1\allmodels.h
+	"statek.h"
+	"Tlo.h"
+	"woda.h"
+	"Zagiel.h"
+	"wioslo.h"
+	"wioslo2.h"
+
+1501165072 c:\users\anka\desktop\z wios³em\23_07_v1\wioslo2.h
+	"model.h"
+
+1501167657 source:c:\users\anka\desktop\z wios³em\23_07_v1\wioslo2.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo2.h"
+	"loader.h"
+
+1501169844 source:c:\users\kasi\desktop\z wios³em\23_07_v1\loader.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<limits>
+	<string>
+	"loader.h"
+
+1469357978 c:\users\kasi\desktop\z wios³em\23_07_v1\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487692562 c:\users\kasi\desktop\z wios³em\23_07_v1\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483573366 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\_swizzle.hpp
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\_swizzle_func.hpp
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec2.inl
+
+1483573366 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec3.inl
+
+1483573366 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec4_simd.inl
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x3.inl
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat2x4.inl
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x2.inl
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat3x4.inl
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x2.inl
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x3.inl
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_mat4x4_simd.inl
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_vec1.inl
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_vector_relational_simd.inl
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483573366 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\simd\common.h
+	"platform.h"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483573366 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\simd\geometric.h
+	"common.h"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483573366 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_trigonometric_simd.inl
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\type_half.inl
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_packing_simd.inl
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483573366 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483573364 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483573366 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\simd\integer.h
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\gtc\constants.inl
+	<limits>
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\gtc\quaternion_simd.inl
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485090748 c:\users\kasi\desktop\z wios³em\23_07_v1\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1500730026 c:\users\kasi\desktop\z wios³em\23_07_v1\loader.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1456504920 source:c:\users\kasi\desktop\z wios³em\23_07_v1\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456504924 c:\users\kasi\desktop\z wios³em\23_07_v1\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1501170749 source:c:\users\kasi\desktop\z wios³em\23_07_v1\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"allmodels.h"
+	"loader.h"
+	<windows.h>
+	<time.h>
+
+1487678916 c:\users\kasi\desktop\z wios³em\23_07_v1\constants.h
+
+1501165087 c:\users\kasi\desktop\z wios³em\23_07_v1\allmodels.h
+	"statek.h"
+	"Tlo.h"
+	"woda.h"
+	"Zagiel.h"
+	"wioslo.h"
+	"wioslo2.h"
+
+1500729016 c:\users\kasi\desktop\z wios³em\23_07_v1\statek.h
+	"model.h"
+
+1500731090 c:\users\kasi\desktop\z wios³em\23_07_v1\model.h
+	<vector>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"constants.h"
+
+1500733346 c:\users\kasi\desktop\z wios³em\23_07_v1\tlo.h
+	"model.h"
+
+1500900930 c:\users\kasi\desktop\z wios³em\23_07_v1\woda.h
+	"model.h"
+
+1500909005 c:\users\kasi\desktop\z wios³em\23_07_v1\zagiel.h
+	"model.h"
+
+1501157140 c:\users\kasi\desktop\z wios³em\23_07_v1\wioslo.h
+	"model.h"
+
+1501165072 c:\users\kasi\desktop\z wios³em\23_07_v1\wioslo2.h
+	"model.h"
+
+1500729016 source:c:\users\kasi\desktop\z wios³em\23_07_v1\model.cpp
+	"model.h"
+
+1501161763 source:c:\users\kasi\desktop\z wios³em\23_07_v1\statek.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"statek.h"
+	"loader.h"
+
+1501170565 source:c:\users\kasi\desktop\z wios³em\23_07_v1\tlo.cpp
+	<stdio.h>
+	<cstdlib>
+	"tlo.h"
+	"loader.h"
+
+1501167355 source:c:\users\kasi\desktop\z wios³em\23_07_v1\wioslo.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo.h"
+	"loader.h"
+
+1501167657 source:c:\users\kasi\desktop\z wios³em\23_07_v1\wioslo2.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo2.h"
+	"loader.h"
+
+1501154905 source:c:\users\kasi\desktop\z wios³em\23_07_v1\woda.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"woda.h"
+	"loader.h"
+
+1500910626 source:c:\users\kasi\desktop\z wios³em\23_07_v1\zagiel.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"Zagiel.h"
+	"loader.h"
+
+1501169844 source:c:\users\kasi\desktop\kamera\23_07_v1\loader.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<limits>
+	<string>
+	"loader.h"
+
+1469357978 c:\users\kasi\desktop\kamera\23_07_v1\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487692562 c:\users\kasi\desktop\kamera\23_07_v1\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483573366 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\_swizzle.hpp
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\_swizzle_func.hpp
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_vec2.inl
+
+1483573366 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_vec3.inl
+
+1483573366 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_vec4_simd.inl
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat2x3.inl
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat2x4.inl
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat3x2.inl
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat3x4.inl
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat4x2.inl
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat4x3.inl
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_mat4x4_simd.inl
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_vec1.inl
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_vector_relational_simd.inl
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483573366 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\simd\common.h
+	"platform.h"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483573366 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\simd\geometric.h
+	"common.h"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483573366 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_trigonometric_simd.inl
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\type_half.inl
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_packing_simd.inl
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483573366 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483573364 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483573366 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\simd\integer.h
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\gtc\constants.inl
+	<limits>
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\gtc\quaternion_simd.inl
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485090748 c:\users\kasi\desktop\kamera\23_07_v1\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1500730026 c:\users\kasi\desktop\kamera\23_07_v1\loader.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1456504920 source:c:\users\kasi\desktop\kamera\23_07_v1\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456504924 c:\users\kasi\desktop\kamera\23_07_v1\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1501241019 source:c:\users\kasi\desktop\kamera\23_07_v1\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"allmodels.h"
+	"loader.h"
+	<windows.h>
+	<time.h>
+
+1487678916 c:\users\kasi\desktop\kamera\23_07_v1\constants.h
+
+1501165087 c:\users\kasi\desktop\kamera\23_07_v1\allmodels.h
+	"statek.h"
+	"Tlo.h"
+	"woda.h"
+	"Zagiel.h"
+	"wioslo.h"
+	"wioslo2.h"
+
+1500729016 c:\users\kasi\desktop\kamera\23_07_v1\statek.h
+	"model.h"
+
+1500731090 c:\users\kasi\desktop\kamera\23_07_v1\model.h
+	<vector>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"constants.h"
+
+1500733346 c:\users\kasi\desktop\kamera\23_07_v1\tlo.h
+	"model.h"
+
+1500900930 c:\users\kasi\desktop\kamera\23_07_v1\woda.h
+	"model.h"
+
+1500909005 c:\users\kasi\desktop\kamera\23_07_v1\zagiel.h
+	"model.h"
+
+1501157140 c:\users\kasi\desktop\kamera\23_07_v1\wioslo.h
+	"model.h"
+
+1501165072 c:\users\kasi\desktop\kamera\23_07_v1\wioslo2.h
+	"model.h"
+
+1500729016 source:c:\users\kasi\desktop\kamera\23_07_v1\model.cpp
+	"model.h"
+
+1501238985 source:c:\users\kasi\desktop\kamera\23_07_v1\statek.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"statek.h"
+	"loader.h"
+
+1501241234 source:c:\users\kasi\desktop\kamera\23_07_v1\tlo.cpp
+	<stdio.h>
+	<cstdlib>
+	"tlo.h"
+	"loader.h"
+
+1501241296 source:c:\users\kasi\desktop\kamera\23_07_v1\wioslo.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo.h"
+	"loader.h"
+
+1501241296 source:c:\users\kasi\desktop\kamera\23_07_v1\wioslo2.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo2.h"
+	"loader.h"
+
+1501237661 source:c:\users\kasi\desktop\kamera\23_07_v1\woda.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"woda.h"
+	"loader.h"
+
+1500910626 source:c:\users\kasi\desktop\kamera\23_07_v1\zagiel.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"Zagiel.h"
+	"loader.h"
+
+1501169844 source:c:\users\kasi\desktop\kamera — kopia\23_07_v1\loader.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<limits>
+	<string>
+	"loader.h"
+
+1469357978 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487692562 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483573366 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\_swizzle.hpp
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\_swizzle_func.hpp
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_vec2.inl
+
+1483573366 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_vec3.inl
+
+1483573366 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_vec4_simd.inl
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat2x3.inl
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat2x4.inl
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat3x2.inl
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat3x4.inl
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat4x2.inl
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat4x3.inl
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_mat4x4_simd.inl
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_vec1.inl
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_vector_relational_simd.inl
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483573366 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\simd\common.h
+	"platform.h"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483573366 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\simd\geometric.h
+	"common.h"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483573366 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_trigonometric_simd.inl
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\type_half.inl
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_packing_simd.inl
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483573366 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483573364 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483573366 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\simd\integer.h
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\gtc\constants.inl
+	<limits>
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\gtc\quaternion_simd.inl
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485090748 c:\users\kasi\desktop\kamera — kopia\23_07_v1\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1501241702 c:\users\kasi\desktop\kamera — kopia\23_07_v1\loader.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1456504920 source:c:\users\kasi\desktop\kamera — kopia\23_07_v1\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456504924 c:\users\kasi\desktop\kamera — kopia\23_07_v1\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1501241790 source:c:\users\kasi\desktop\kamera — kopia\23_07_v1\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"allmodels.h"
+	"loader.h"
+	<windows.h>
+	<time.h>
+
+1487678916 c:\users\kasi\desktop\kamera — kopia\23_07_v1\constants.h
+
+1501241380 c:\users\kasi\desktop\kamera — kopia\23_07_v1\allmodels.h
+	"statek.h"
+	"Tlo.h"
+	"woda.h"
+	"wioslo.h"
+	"wioslo2.h"
+
+1500729016 c:\users\kasi\desktop\kamera — kopia\23_07_v1\statek.h
+	"model.h"
+
+1501242555 c:\users\kasi\desktop\kamera — kopia\23_07_v1\model.h
+	<vector>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"constants.h"
+
+1500733346 c:\users\kasi\desktop\kamera — kopia\23_07_v1\tlo.h
+	"model.h"
+
+1500900930 c:\users\kasi\desktop\kamera — kopia\23_07_v1\woda.h
+	"model.h"
+
+1501157140 c:\users\kasi\desktop\kamera — kopia\23_07_v1\wioslo.h
+	"model.h"
+
+1501165072 c:\users\kasi\desktop\kamera — kopia\23_07_v1\wioslo2.h
+	"model.h"
+
+1501241702 source:c:\users\kasi\desktop\kamera — kopia\23_07_v1\model.cpp
+	"model.h"
+
+1501242517 source:c:\users\kasi\desktop\kamera — kopia\23_07_v1\statek.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"statek.h"
+	"loader.h"
+
+1501241702 source:c:\users\kasi\desktop\kamera — kopia\23_07_v1\tlo.cpp
+	<stdio.h>
+	<cstdlib>
+	"tlo.h"
+	"loader.h"
+
+1501241702 source:c:\users\kasi\desktop\kamera — kopia\23_07_v1\wioslo.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo.h"
+	"loader.h"
+
+1501241702 source:c:\users\kasi\desktop\kamera — kopia\23_07_v1\wioslo2.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo2.h"
+	"loader.h"
+
+1501241702 source:c:\users\kasi\desktop\kamera — kopia\23_07_v1\woda.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"woda.h"
+	"loader.h"
+
+1501169844 source:c:\users\kasi\desktop\gotowe\23_07_v1\loader.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<limits>
+	<string>
+	"loader.h"
+
+1469357978 c:\users\kasi\desktop\gotowe\23_07_v1\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487692562 c:\users\kasi\desktop\gotowe\23_07_v1\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483573366 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\_swizzle.hpp
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\_swizzle_func.hpp
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_vec2.inl
+
+1483573366 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_vec3.inl
+
+1483573366 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_vec4_simd.inl
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat2x3.inl
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat2x4.inl
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat3x2.inl
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat3x4.inl
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat4x2.inl
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat4x3.inl
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_mat4x4_simd.inl
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_vec1.inl
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_vector_relational_simd.inl
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483573366 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\simd\common.h
+	"platform.h"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483573366 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\simd\geometric.h
+	"common.h"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483573366 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_trigonometric_simd.inl
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\type_half.inl
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_packing_simd.inl
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483573366 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483573364 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483573366 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\simd\integer.h
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\gtc\constants.inl
+	<limits>
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\gtc\quaternion_simd.inl
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485090748 c:\users\kasi\desktop\gotowe\23_07_v1\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1501241702 c:\users\kasi\desktop\gotowe\23_07_v1\loader.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1456504920 source:c:\users\kasi\desktop\gotowe\23_07_v1\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456504924 c:\users\kasi\desktop\gotowe\23_07_v1\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1501241790 source:c:\users\kasi\desktop\gotowe\23_07_v1\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"allmodels.h"
+	"loader.h"
+	<windows.h>
+	<time.h>
+
+1487678916 c:\users\kasi\desktop\gotowe\23_07_v1\constants.h
+
+1501241380 c:\users\kasi\desktop\gotowe\23_07_v1\allmodels.h
+	"statek.h"
+	"Tlo.h"
+	"woda.h"
+	"wioslo.h"
+	"wioslo2.h"
+
+1500729016 c:\users\kasi\desktop\gotowe\23_07_v1\statek.h
+	"model.h"
+
+1501242663 c:\users\kasi\desktop\gotowe\23_07_v1\model.h
+	<vector>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"constants.h"
+
+1500733346 c:\users\kasi\desktop\gotowe\23_07_v1\tlo.h
+	"model.h"
+
+1500900930 c:\users\kasi\desktop\gotowe\23_07_v1\woda.h
+	"model.h"
+
+1501157140 c:\users\kasi\desktop\gotowe\23_07_v1\wioslo.h
+	"model.h"
+
+1501165072 c:\users\kasi\desktop\gotowe\23_07_v1\wioslo2.h
+	"model.h"
+
+1501241702 source:c:\users\kasi\desktop\gotowe\23_07_v1\model.cpp
+	"model.h"
+
+1501242517 source:c:\users\kasi\desktop\gotowe\23_07_v1\statek.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"statek.h"
+	"loader.h"
+
+1501242597 source:c:\users\kasi\desktop\gotowe\23_07_v1\tlo.cpp
+	<stdio.h>
+	<cstdlib>
+	"tlo.h"
+	"loader.h"
+
+1501242597 source:c:\users\kasi\desktop\gotowe\23_07_v1\wioslo.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo.h"
+	"loader.h"
+
+1501242597 source:c:\users\kasi\desktop\gotowe\23_07_v1\wioslo2.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo2.h"
+	"loader.h"
+
+1501242597 source:c:\users\kasi\desktop\gotowe\23_07_v1\woda.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"woda.h"
+	"loader.h"
+
+1501169846 source:c:\users\anka\desktop\gotowe\gotowe\23_07_v1\loader.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<limits>
+	<string>
+	"loader.h"
+
+1469357978 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1487696162 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glfw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\precision.hpp
+	"setup.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1483576966 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\_swizzle.hpp
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\_swizzle_func.hpp
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_vec2.inl
+
+1483576966 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_vec3.inl
+
+1483576966 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_vec4_simd.inl
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat2x3.inl
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat2x4.inl
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat3x2.inl
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat3x4.inl
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat4x2.inl
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat4x3.inl
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_mat4x4_simd.inl
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_vec1.inl
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_vector_relational_simd.inl
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1483576966 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\simd\exponential.h
+	"platform.h"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\simd\common.h
+	"platform.h"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1483576966 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\simd\geometric.h
+	"common.h"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1483576966 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_trigonometric_simd.inl
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\common.hpp
+	"detail/func_common.hpp"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\type_half.inl
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_packing_simd.inl
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1483576966 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1483576964 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1483576966 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\simd\integer.h
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\gtc\constants.inl
+	<limits>
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\gtc\quaternion_simd.inl
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1485094348 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1501241704 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\loader.h
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+
+1456508520 source:c:\users\anka\desktop\gotowe\gotowe\23_07_v1\lodepng.cpp
+	"lodepng.h"
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+
+1456508524 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1501241792 source:c:\users\anka\desktop\gotowe\gotowe\23_07_v1\main_file.cpp
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<stdlib.h>
+	<stdio.h>
+	<lodepng.h>
+	"constants.h"
+	"allmodels.h"
+	"loader.h"
+	<windows.h>
+	<time.h>
+
+1487682516 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\constants.h
+
+1501241382 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\allmodels.h
+	"statek.h"
+	"Tlo.h"
+	"woda.h"
+	"wioslo.h"
+	"wioslo2.h"
+
+1500729016 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\statek.h
+	"model.h"
+
+1501242664 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\model.h
+	<vector>
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"constants.h"
+
+1500733346 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\tlo.h
+	"model.h"
+
+1500900932 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\woda.h
+	"model.h"
+
+1501157142 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\wioslo.h
+	"model.h"
+
+1501165074 c:\users\anka\desktop\gotowe\gotowe\23_07_v1\wioslo2.h
+	"model.h"
+
+1501241704 source:c:\users\anka\desktop\gotowe\gotowe\23_07_v1\model.cpp
+	"model.h"
+
+1501242518 source:c:\users\anka\desktop\gotowe\gotowe\23_07_v1\statek.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"statek.h"
+	"loader.h"
+
+1501242598 source:c:\users\anka\desktop\gotowe\gotowe\23_07_v1\tlo.cpp
+	<stdio.h>
+	<cstdlib>
+	"tlo.h"
+	"loader.h"
+
+1501242598 source:c:\users\anka\desktop\gotowe\gotowe\23_07_v1\wioslo.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo.h"
+	"loader.h"
+
+1501242598 source:c:\users\anka\desktop\gotowe\gotowe\23_07_v1\wioslo2.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"wioslo2.h"
+	"loader.h"
+
+1501242598 source:c:\users\anka\desktop\gotowe\gotowe\23_07_v1\woda.cpp
+	<stdio.h>
+	<cstdlib>
+	"constants.h"
+	"woda.h"
+	"loader.h"
+
